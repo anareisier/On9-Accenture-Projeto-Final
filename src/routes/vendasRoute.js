@@ -36,7 +36,7 @@ router.use(authMiddleware);
 @access Private 
 @endpoint http://localhost:8080/venda/estorno/:id
 **/
-router.delete("/:id", controller.estorno)
+router.delete("/estorno/:id", controller.estorno)
 
 module.exports = router;
 
